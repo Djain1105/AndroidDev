@@ -13,7 +13,13 @@ import com.example.viewbinding.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
-
+    /* do this also in build.gradle file
+        android { ...
+            buildfeatures {
+                viewbinding = true
+            }
+        }
+     */
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
