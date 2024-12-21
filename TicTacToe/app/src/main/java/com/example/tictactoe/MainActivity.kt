@@ -172,7 +172,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     // defining the update display function
     private fun updateDisplay(text: String) {
         binding.displayTv.text = text
-        if (text.contains("Winner")){
+        if (text.contains("Won")){
             disableButton()
         }
     }
