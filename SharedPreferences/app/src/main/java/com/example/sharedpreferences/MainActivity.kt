@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
         fun saveColor(color: Int) {
             var editor = sPref.edit()
             editor.putInt("COLOR", color)
-            editor.apply() 
+            editor.apply()
         }
 
         binding.btnRed.setOnClickListener {
